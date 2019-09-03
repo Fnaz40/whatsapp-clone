@@ -1,0 +1,101 @@
+.message{
+    display: flex;
+    border-left: 2px solid rgb(25, 148, 107);
+    border-right: 2px solid rgb(25, 148, 107);
+    height: 8em;
+    width: 33em;
+    background-image: url(img/bg.jpeg);
+    flex-wrap: wrap;
+}
+/* .message:hover{
+    background-color: rgba(17, 17, 17, 0.432);
+    cursor: pointer;
+} */
+ul{
+    margin: 0px;
+}
+.profile img{
+    display: flex;
+    height: 4em;
+    width: 3em;
+    border-radius: 50%;
+    margin: 23px 0px 4px 11px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.time{
+    display: flex;
+    margin-left: 104px;
+    margin-right: 0px;
+    padding: 6px;
+    color: gray;
+}
+.firstline{
+    color: gray;
+    margin-top: -10px;
+    margin-left: 26px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    margin: 37px 36px 0px 38px;
+    width: 31em;
+    height: 6em;
+    border: 2px solid #19946b;
+    background-color: #188e67;
+    color: white;
+}
+h2{
+    margin: 0px;
+    padding: 27px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+}
+.whatsapp {
+    color: rgb(236, 229, 221);
+    font-weight: bold;
+    font-size: 22px;
+}
+.icons i {
+    color: rgb(236, 229, 221);
+    padding: 0px 12px;
+}
+.two {
+    color: rgb(236, 229, 221);
+    border-bottom: 4px solid rgb(236, 229, 221);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 10px;
+    font-size: large;
+    background-color: #188e67;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+.one{
+    background: #188e67;
+    color: #dfe5dd;
+    border: none;
+    font-size: large;
+}
+.three{
+    background: #188e67;
+    color: #dfe5dd;
+    border: none;
+    font-size: large;
+}
+.four{
+    background: #188e67;
+    color: #dfe5dd;
+    border: none;
+    font-size: large;
+}
